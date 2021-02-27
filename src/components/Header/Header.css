@@ -1,0 +1,23 @@
+.header img{
+    display: block;
+    margin: 0 auto;
+    height: 70px;
+}
+.header nav{
+    margin-top: 20px;
+    background-color: black;
+    display: block;
+    padding: 10px 20px;
+}
+
+.header nav a{
+    margin-left: 15px;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.header nav a:hover{
+    background-color: rgba(255, 255, 255, .5);
+}
