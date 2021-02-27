@@ -9,8 +9,8 @@ const Cart = (props) => {
     const items=props.cartItem;
     let total=0;
     for(let i=0;i<items.length;i++){
-        total= total+items[i].price;
-    } 
+        total=total+items[i].price;
+    }
     let shipping=0;
     if(total>0 && total<12.99){
         shipping=12.99;
